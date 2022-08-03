@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.5;
+  
+}
+
+
+.container{
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      box-sizing: border-box;
+      }
+
+
+nav {
+  height:40px;
+  background-color: #fff; 
+  box-shadow: 0 2px 5px 0 antiquewhite;
+}
+
+
+nav a{ 
+        display:block;
+        width: 100px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 8px;
+        font-size:17px;
+        float:left;
+        letter-spacing:3px;
+}
+
+nav a:hover{
+                 color:red;
+                transition:.3s ease;            
+}
+
+.text{
+  float:left;
+  padding-top:8px;
+  padding-left: 16px;
+  font-size:17px;
+  letter-spacing:3px;
+}
+
+.right{
+   float:right;
+   padding-right:20px;
+ 
+}
+
+section{
+  width: 1600px;
+}
+
+.txt{
+  position:absolute;
+  bottom:-50px;
+}
+
+.catering{
+  padding:5px 20px;
+}
+
+h1{
+  
+  font-size: 36px;
+
+}
+
+.content{
+        width: 1100px;
+}
+
+.about{
+  margin:70px 250px;
+}
+
+.round{
+  border-radius: 4px;
+}
+
+
+.content{
+  width: 1100px;
+}
+
+.about-catering{
+  position:absolute;
+  left:580px;
+ bottom:-680px;
+ margin: 0 70px;
+
+}
+
+.heading{
+  text-align: center;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6{
+  letter-spacing: 5px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 400;
+
+}
+
+
+.paragraph {
+  font-size: 18px;
+}
+
+.text-grey{
+  color:grey;
+}
+
+p {
+  padding:10px;
+ 
+}
+
+.heading,.paragraph{
+  margin:12px 140px;
+
+ 
+}
+
+hr{
+  border: 0;
+  border-bottom:2px solid #f1f1f1;
+  margin: 20px 0;
+}
+
+.menu{
+  padding-top:70px;
+  margin:12px 130px;    
+}
+
+.menu-img{
+  
+  position:absolute;
+  left:850px;
+ margin:-570px 0px 0px -70px;
+}
+
+.margin-left{
+            margin-left:-10px;
+            font-size: 15px;
+}
+
+.bold{
+  margin-left:-10px;
+  font-weight:700;
+}
+
+.hr-style{
+         margin-top:100px;
+}
+
+
+.contact{
+  
+  padding-top:60px;
+  padding-bottom: 64px;
+  padding-left: 200px;
+}
+
+.margin-contact{
+          margin:10px;
+}
+
+.size{
+  font-size: 15px;
+}
+
+.text-blue{
+  color:blue;
+  font-size: 18px;
+}
+
+.input{
+  padding: 16px;
+  border: none;
+  width:80%;
+  border-bottom: 2px  solid #f1f1f1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+
+.footer{
+         text-align:center;
+         background-color:#f1f1f1;
+         padding-top:32px;
+         padding-bottom:32px;
+}
